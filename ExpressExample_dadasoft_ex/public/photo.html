@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+		<head>
+				<meta charset="UTF-8">
+				<title>파일업로드 테스트</title>
+				<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+				<!--추가1-->
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+				<!--추가1-->
+		</head>
+		<body>
+				<br><br>&nbsp;&nbsp;&nbsp;
+				<font size =5 color =gray>파일업로드</font><br>
+				<hr>
+				<form method="post" enctype="multipart/form-data" action="/process/photo">
+						<br>&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="file"  size ="12" name="photo" class="btn btn-outline-secondary btn-sm"></input>
+						<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="submit" value="업로드" name="submit" class="btn btn-danger btn-sm"></input>
+				</form>
+		</body>
+</html>
+
