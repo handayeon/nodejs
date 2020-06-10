@@ -19,11 +19,12 @@
       .fakeimg {
           height: 300px;
           width:100%;
-          background: #FA9BC1;
+          background: #EDECED;
           border-radius: 7px;
           padding: 10px 15px;
           margin-top: 10px;
       }
+      
       </style>
     <script>
        </script>
@@ -31,13 +32,17 @@
   <body>
     <form method="post" action="/index">
       <!--제목-->
+      <div style="margin-top:70px">
+        <img src="image/dada.png" alt="John Doe" class="mr-3 mt-3 Thumbnail" top-magrin: style="width:150px;" >
+      </div>
       <div style="margin-top:20px"  align="center">
-      <b> <font color= #FA9BC1 size=5>dada's Website</font></b>
+      
+      <b> <font color= #fc7676 size=6>dada's Website</font></b><p><p>
       <button type="button" class="btn btn-outline-primary btn-sm">&nbsp;<a href="login2.html" data-toggle="popover" data-trigger="hover" data-content="로그린후 사용하세요" >리뷰 달기</a></button>
       <br><br>	
       </div>
       <!--메뉴버튼-->
-      <nav class="navbar  bg-primary navbar-dark">
+      <nav class="navbar bg-light navbar-light">
         <a class="navbar-brand" href="index.html" data-toggle="popover" data-trigger="hover" data-content="초기화면입니다">홈</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -48,10 +53,10 @@
               <a class="nav-link" href="profile1.html">내소개</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="table.html">학교시간표</a>
+              <a class="nav-link" href="table.html">시간표</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="lecture.html">사진첩</a>
+              <a class="nav-link" href="lecture.html">강의실자료</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="board.html">게시판</a>
@@ -63,74 +68,54 @@
         <div class="row">
           <!--왼쪽내용-->
           <div class="col-sm-4">
-            <h5>About Me</h5>
-            <font size=3>Photo of me:</font>
-            <img src="image/flower.png" alt="John Doe" class="mr-3 mt-3 Thumbnail" top-magrin: style="width:150px;" >
+            <div style="color:#fc7676"><h5>About Me</h5></div>
+            <img src="image/sajin.JPG" alt="John Doe" class="mr-3 mt-3 Thumbnail" top-magrin: style="width:150px;" >
             <br>
             <font size=3>한다연</font><br>
             <font size=3>메일 정보: <a href="mailto:s2018w19@e-mirim.hs.kr">
               s2018w19@e-mirim.hs.kr</a>.</font><p>
             <p><p>
 
-            <ul class="nav nav-pills flex-column">
-              <h5>My portfolio</h5>
-              <font size=4>Application을 추가하여 보세요</font>
+            <ul class="nav flex-column">
+            <div style="color:#fc7676"><h5>My portfolio</h5></div>
+              <font size=4 color="#fc7676">Application을 추가하여 보세요</font>
               <li class="nav-item">
-              <a class="nav-link active" href="calculator.html" data-toggle="popover"  data-content="계산하는프로그램">계산기</a>
+              <a class="nav-link disabled" href="calculator.html" data-toggle="popover"  data-content="계산하는프로그램">계산기</a>
               </li>
               <li class="nav-item">
-              <a class="dropdown-item" href="midwav.html" data-toggle="popover"  data-content="좋하하는 노래가 실행이 됩니다">오디오실행</a>
+              <a class="nav-link disabled" href="midwav.html" data-toggle="popover"  data-content="좋하하는 노래가 실행이 됩니다">오디오실행</a>
               </li>
               <li class="nav-item">
-                <a class="dropdown-item" href="video.html" data-toggle="popover"  data-content="비디오가 실행됩니다">비디오실행</a>
+                <a class="nav-link disabled" href="video.html" data-toggle="popover"  data-content="비디오가 실행됩니다">비디오실행</a>
                 </li>
             </ul>
           </div>
 
           <!--가운데 메뉴-->
           <div class="col-sm-4">
-              <h5>Counter</h5>
-              <div class="fakeimg" style="height:220px">
-                <p>하루의 시간</p>
+              <div style="color:#fc7676"><h5>you</h5></div>
+              <div class="fakeimg" style="height:300px">
+                <p>내가 너를</p>
                 <p>
-                오늘 하루는 <br>
-                내 생애의 축소판.  <br>
-                아침에 눈을 떠서 저녁에 잠잘 때까지 <br> 
-                하루 종일 희망을 말하는 사람,  <br>
-                그게 나였으면 좋겠습니다.<br>
-                (권대웅·시인)<br>
+                내가 너를 얼마나 좋아하는지 <br>
+                너는 몰라도 된다  <br>
+                너를 좋아하는 마음은 <br>
+                오로지 나의 것이요  <br>
+                나의 그리움은 <br>
+                나 혼자만의 것으로도 차고 넘치니까 <br>
+                나는 이제 너 없이도  <br>
+                너를 좋아할 수 있다  <br><br>
+                (나태주·시인)<br>
               </div>
               <br>
           </div>
 
           <!--오른쪽 메뉴-->
           <div class="col-sm-4">
-                <h5>My Calendar</h5>
+            <div style="color:#fc7676"><h5>My Calendar</h5></div>
                 <div id="datepicker" align="center" ></div>
                 <div class="fakeimg" style="height:320px"> 
-                  <p>달력</p>
-                  <p>
-                  달력 속에는 
-                  숫자들이 가지런히 
-                  놓여 있어요.<br>
-                  
-                  하루하루 지나 한 달이 되어 
-                  한 장을 넘기다 보면 
-                  계절에 맞춰 
-                  예쁜 그림도 바뀌지요. <br>
-                  
-                  새 달력이 나오면 
-                  먼저 기념일에다 
-                  동그라미를 넣고 
-                  공휴일도 세어요. 
-                  
-                  해마다 
-                  반복되는 
-                  숫자들의 배열 
-                  우리네 인생이에요.<br>
-                  (이제민·시인)
-                </div>
-                <p>Some text..</p>
+                  <link rel="stylesheet" href="css/Calendar.css">
           </div>
         </div>
       </div>
